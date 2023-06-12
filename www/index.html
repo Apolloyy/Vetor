@@ -7,11 +7,35 @@
     <script src="components/loader.js"></script>
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/style.css">
-    <script>
-    </script>
+    <script src="components/script.js"></script>
 </head>
 <body>
-	<br />
-    This is a template for Monaca app.
+    <div class="container">
+        <div class="card">
+    <b><h1>Cadastros em Vetor JS</h1></b>
+    <input type="text" name="insertnome" id="nome" placeholder="Digite seu nome">
+
+
+
+    
+
+        <div class="buttons">
+        <input type="button" name="btnCadastrar" value="Cadastrar no final" onclick="Vetor()"> 
+        <input type="button" name="btnCadastrarInicio" value="Cadastrar no inicio" onclick="Inicio()"> 
+        <input type="button" name="btnRemoverFinal" value="RemoverFinal" onclick="RemoveFinal()">
+        <input type="button" name="btnRemoverInicio" value="Remover no inicio" onclick="RemoveInicio()">
+        <input type="button" name="btnRemoverdaokfopai" value="Exibir tudo" onclick="Posicao()">
+        <input type="button" name="btnpesquisa" value="Pesquisa" onclick="Pesquisar()">
+        <input type="button" name="btnListar" value="Listar" onclick="Lista()">
+        <input type="button" name="btnLimpar" value="Limpar" id="clear" onclick="Clear()">
+        </div>
+
+
+
+    
+                <div id="lista">
+                </div>
+        </div>        
+</div>
 </body>
 </html>
